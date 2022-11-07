@@ -232,7 +232,7 @@ process.on('exit', () => {
     });
 });
 if (!ENVJSON.env.SERVERLESS)
-    app.listen(5000, () => { console.log("API Server: http://localhost:5000"); });
+    app.listen(3000, () => { console.log("API Server: http://localhost:3000"); });
 exports.main = (0, serverless_http_1.default)(app);
 exports.handler = exports.main;
 exports.main_handler = exports.main;
