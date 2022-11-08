@@ -24,7 +24,7 @@
     "removeComments": true,
     "resolveJsonModule": true,
     "allowJs": true,
-    "outDir": "build",
+    "outDir": "api",
     "types": [
       "node"
     ]

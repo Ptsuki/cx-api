@@ -251,7 +251,7 @@ process.on('exit', () => {
 });
 
 // 若在服务器，直接运行
-if (!ENVJSON.env.SERVERLESS) app.listen(3000, () => { console.log("API Server: http://localhost:3000"); });
+if (!ENVJSON.env.SERVERLESS) app.listen(5000, () => { console.log("API Server: http://localhost:5000"); });
 
 // 导出云函数
 export const main = serverless(app);
